@@ -16,4 +16,8 @@ export default class BaseAtom {
     async checkEnabled(enabled = true): Promise<void> {
         await expect(this._container).toBeEnabled({enabled});
     }
+
+    async click(): Promise<void> {
+        await this._container.click();
+    }
 }
