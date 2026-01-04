@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv"
 
 if (process.env.CI !== 'true') {
-    dotenv.config({path: 'env/.env'})
+    dotenv.config({path: '.env/..env'})
 }
 
 const requiredVars = ['SERVICE_URL']
