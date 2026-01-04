@@ -6,7 +6,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 // import dotenv from 'dotenv';
 // import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+// dotenv.config({ path: path.resolve(__dirname, '..env') });
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -69,6 +69,6 @@ export default defineConfig({
   // webServer: {
   //   command: 'npm run start',
   //   url: 'http://localhost:3000',
-  //   reuseExistingServer: !process.env.CI,
+  //   reuseExistingServer: !process..env.CI,
   // },
 });
